@@ -21,7 +21,10 @@ public class Main {
 
         Endereco endereco = new Endereco();
         endereco.setId(random.nextInt(100));
+        endereco.setLogradouro("Rua José Dias 89");
+        endereco.setCep("14985045");
         endereco.setBairro("Jardim das Flores");
+        endereco.setCidade("Araraquara");
         endereco.setEstado(estado);
 
         Gerente gerente = new Gerente();
@@ -35,11 +38,14 @@ public class Main {
         Estado estado2 = new Estado();
         estado2.setId(random.nextInt(100));
         estado2.setUf("MG");
-        estado2.setDescricao("Belo Horizonte");
+        estado2.setDescricao("Minas Gerais");
 
         Endereco endereco2 = new Endereco();
         endereco2.setId(random.nextInt(100));
+        endereco2.setLogradouro("Rua Pinheiros 234");
+        endereco2.setCep("185545203");
         endereco2.setBairro("Parque do Sol");
+        endereco2.setCidade("Belo Horizonte");
         endereco2.setEstado(estado2);
 
         AnalistaTI analistaTI = new AnalistaTI();
